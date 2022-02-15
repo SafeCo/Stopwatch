@@ -1,0 +1,43 @@
+body {
+	background-color: blue;
+}
+h1 {
+	display: flex;
+	justify-content: center;
+}
+
+
+#circle {
+	color: red;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	border-style: solid;
+	border-color: white;
+	border-width: 10px;
+	width: 200px;
+	height:  200px;
+	border-radius: 50%;
+	position: relative;
+
+}
+
+#para {
+	text-align: center;
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	color: white;
+	font-size: 200%;
+}
+
+
+#buttons {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+table, th {
+	border: solid;
+}
